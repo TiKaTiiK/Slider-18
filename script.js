@@ -92,10 +92,10 @@ function setSlider() {
     let title = createH2Tag (data[sliderIndex]);
     let dots = createDots();
     sliderItem.appendChild(title);
+    // sliderItem.appendChild(h2Tag);
     sliderContainer.appendChild(sliderItem);
     sliderContainer.appendChild(dots);
     currentDotActive();
-    
 }
 
 function currentDotActive () {
